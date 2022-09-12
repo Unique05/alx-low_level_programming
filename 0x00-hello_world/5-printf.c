@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main- prints the programme
+ * main - prints the programme
  * Description: Using the main function
- * this programme pints "with
- * proper grammar, but the outcome is a piece of art,\n"
- * Return 0
+ * this programme pints
+ * "with proper grammar, but the outcome is a piece of art,\n"
+ * Return: 0
  */
 
 int main(void)
