@@ -1,2 +1,2 @@
 #!/bin/bash
-./main.c >> /alx-low_level_programming/0x00-hello_world/c
+gcc $CFILE -o c
