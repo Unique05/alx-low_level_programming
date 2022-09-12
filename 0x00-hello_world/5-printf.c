@@ -1,6 +1,11 @@
 #include <stdio.h>
-
-/* Function outputs with proper grammar, but the outcome is a piece of art,*/
+/**
+ * main- prints the programme
+ * Description: Using the main function
+ * this programme pints "with
+ * proper grammar, but the outcome is a piece of art,\n"
+ * return 0
+ */
 
 int main(void)
 {
