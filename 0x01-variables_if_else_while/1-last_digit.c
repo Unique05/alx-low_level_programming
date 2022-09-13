@@ -28,11 +28,11 @@ int main(void)
 	}
 	else if (p == 0)
 	{
-		printf("and is zero\n");
+		printf("and is 0\n");
 	}
 	else if (p < 6 && p != 0)
 	{
-		printf("and is less than 6 and not zero\n");
+		printf("and is less than 6 and not 0\n");
 	}
 
 	return (0);
