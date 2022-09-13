@@ -2,17 +2,20 @@
 
 /**
  * main - prints the alphabet
- * Description: This programme prints
- * the alphabet in lower case
+ * Description: Print the alphabet in lowercase
  * Return: 0
- */
+*/
 
 int main(void)
 {
-	char ch = 'a';
 
-	for (ch = 'a'; ch <= 'z'; ch++);
-	putchar(ch);
-	putchar ('\n');
+	char c;
+
+	for (c = 'a'; c <= 'z'; ++c)
+
+		putchar(c);
+	printf("\n");
+
 	return (0);
+
 }
