@@ -4,12 +4,13 @@ int main(void)
 {
 	int a, b;
 
-	for ( b = 0; b <= 5; b++)
-	{	for (a = 0; a < b; a++)
+	for (a = 0; a <= 3; a++)
+	{
+		for (b = 0; b <= 3; b++)
 		{
-			putchar('a');
+			putchar('#');
 		}
-		putchar('b');
+
 		putchar('\n');
 	}
 }
