@@ -2,15 +2,17 @@
 
 int main(void)
 {
-	int a, b;
+	int a;
 
-	for (a = 0; a <= 3; a++)
+	for (a = 0; a <= 30; a++)
 	{
-		for (b = 0; b <= 3; b++)
+		if (( a % 3 && a % 7) == 0)
 		{
-			putchar('#');
+			printf("ccrree");
 		}
-
-		putchar('\n');
+		else 
+		{
+			printf("%d", a);
+		}
 	}
 }
