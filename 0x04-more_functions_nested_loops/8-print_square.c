@@ -1,7 +1,7 @@
  #include "main.h"
 
 /**
- * print-square - prints hashtags squares
+ * print_square - prints hashtags squares
  * @size: size of square
  * Return: 0
  */
